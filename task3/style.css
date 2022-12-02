@@ -1,0 +1,69 @@
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    border: 5px solid grey;
+  }
+  body {
+    margin: 2% 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#trafficLight:hover {
+    cursor: pointer;
+    text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  display: block;
+  margin-top: 100px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+
+a:hover {
+  color: blueviolet;
+}
+
+p {
+  font-size: 22px;
+}
+
+.block {
+  height: 400px;
+  width: 130px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #000000, #505050)
+  }
+   
+  .light {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #414141;
+  }
+   
+  .light:hover {
+  cursor: pointer;
+  }
+   
+ 

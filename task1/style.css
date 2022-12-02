@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    margin: 50px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p {
+    font-size: 18px;
+    margin-bottom: 50px;
+   
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    display: block;}
+   
+
+
+a:hover {
+    color: blueviolet;
+    
+}
+
+.descr {
+    background-color: rgba(128, 128, 128, 0.062);
+    box-shadow: 2px 2px 10px 2px #ebd5d9;
+    padding: 30px;
+    display: inline-block;
+}

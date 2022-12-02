@@ -1,0 +1,29 @@
+body {
+background-color: beige;
+margin: 50px auto;
+text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+}
+
+.example {
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.container {
+    padding: 0 25%;
+}
+
+.descr:hover, #consoleLog:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+.example {font-size: 26px;}
+
+.container__item {
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-bottom: 30px;
+}
